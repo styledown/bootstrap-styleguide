@@ -1,0 +1,248 @@
+<!doctype html>
+<html class='styleguide-root'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Tables — Styleguides
+</title>
+    <meta name='generator' content='Styledown2 2.0.0-pre11'><meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='styledown/styleguide.css' />  </head>
+  <body>
+   <div class='styleguide-layout'>
+     <div class='styleguide-sidebar'>
+  <input type='checkbox' id='styleguide-sidebar-toggle' data-js-sidebar-toggle />
+  <label class='styleguide-sidebar-button' for='styleguide-sidebar-toggle'></label>
+  <label class='styleguide-sidebar-screen' for='styleguide-sidebar-toggle'></label>
+  <div class='styleguide-sidebar-contents'>
+    <div class='styleguide-search-bar'>Search...</div>
+    <ul class='styleguide-menu'>
+<li class='styleguide-menu-item -level-1 '>
+<a href='index.html' class='link title '>
+  Bootstrap styleguide
+</a></li><li class='styleguide-menu-item -level-1 -parent'>
+<span class='title'>Layout</span><ul class='submenu'>
+<li class='styleguide-menu-item -level-2 '>
+<a href='grid.html' class='link title '>
+  Grid
+</a></li></ul></li><li class='styleguide-menu-item -level-1 -parent'>
+<span class='title'>Components</span><ul class='submenu'>
+<li class='styleguide-menu-item -level-2 '>
+<a href='buttons.html' class='link title '>
+  Buttons
+</a></li><li class='styleguide-menu-item -level-2 '>
+<a href='components.html' class='link title '>
+  Components
+</a></li><li class='styleguide-menu-item -level-2 '>
+<a href='forms.html' class='link title '>
+  Forms
+</a></li><li class='styleguide-menu-item -level-2 '>
+<a href='tables.html' class='link title '>
+  Tables
+</a></li></ul></li><li class='styleguide-menu-item -level-1 -parent'>
+<span class='title'>Scenarios</span><ul class='submenu'>
+<li class='styleguide-menu-item -level-2 '>
+<a href='scenarios/examples.html' class='link title '>
+  Examples
+</a></li></ul></li></ul>  </div>
+</div><div class='styleguide-body markdown-body'>
+<section class='styleguide-section -h1'>
+  <h1 id='tables'>Tables</h1>
+</section><section class='styleguide-section -h3 -literate-style'>
+  <h3 id='table'>table</h3>
+<div class='styleguide-text'><h4 id="code-table-table-code"><code>table.table</code></h4>
+<p>A basic table.</p></div><div class='styleguide-example '>
+  <div class='styleguide-example-figure ' data-js-example-parent>
+    <div class='styleguide-example-toolbar'>
+      <div class='button-group'>
+        <button data-js-example-class='-sm'>S</button>
+        <button data-js-example-class='-md'>M</button>
+        <button data-js-example-class='-lg'>L</button>
+        <button data-js-example-class='-xl'>XL</button>
+      </div>
+      <div class='button-group'>
+        <button data-js-view-source>View source</button>
+      </div>
+    </div>    <div class='content'>
+      <iframe class='styleguide-iframe' scrolling='no' src='examples/tables/table-2.html'></iframe>
+    </div>
+  </div>
+  <div class='styleguide-example-source'>
+    <pre class=' lang-jade'><code>.panel.panel-default
+  table.table
+    thead
+      tr
+        th #
+        th First name
+        th Last name
+    tbody
+      tr
+        th 1
+        td Louie
+        td Armstrong
+      tr
+        th 2
+        td Frank
+        td Sinatra
+      tr
+        th 3
+        td Ella
+        td Fitzgerald</code></pre>
+  </div>
+</div><div class='styleguide-text'><h4 id="code-amp-table-striped-code"><code>&amp;.table-striped</code></h4>
+<p>Adds stripes to rows in <code>&lt;tbody&gt;</code>.</p></div><div class='styleguide-example '>
+  <div class='styleguide-example-figure ' data-js-example-parent>
+    <div class='styleguide-example-toolbar'>
+      <div class='button-group'>
+        <button data-js-example-class='-sm'>S</button>
+        <button data-js-example-class='-md'>M</button>
+        <button data-js-example-class='-lg'>L</button>
+        <button data-js-example-class='-xl'>XL</button>
+      </div>
+      <div class='button-group'>
+        <button data-js-view-source>View source</button>
+      </div>
+    </div>    <div class='content'>
+      <iframe class='styleguide-iframe' scrolling='no' src='examples/tables/table-4.html'></iframe>
+    </div>
+  </div>
+  <div class='styleguide-example-source'>
+    <pre class=' lang-jade'><code>.panel.panel-default
+  table.table.table-striped
+    thead
+      tr
+        th #
+        th First name
+        th Last name
+    tbody
+      tr
+        th 1
+        td Louie
+        td Armstrong
+      tr
+        th 2
+        td Frank
+        td Sinatra
+      tr
+        th 3
+        td Ella
+        td Fitzgerald</code></pre>
+  </div>
+</div><div class='styleguide-text'><h4 id="code-amp-table-bordered-code"><code>&amp;.table-bordered</code></h4>
+<p>Adds borders around cells.</p></div><div class='styleguide-example '>
+  <div class='styleguide-example-figure ' data-js-example-parent>
+    <div class='styleguide-example-toolbar'>
+      <div class='button-group'>
+        <button data-js-example-class='-sm'>S</button>
+        <button data-js-example-class='-md'>M</button>
+        <button data-js-example-class='-lg'>L</button>
+        <button data-js-example-class='-xl'>XL</button>
+      </div>
+      <div class='button-group'>
+        <button data-js-view-source>View source</button>
+      </div>
+    </div>    <div class='content'>
+      <iframe class='styleguide-iframe' scrolling='no' src='examples/tables/table-6.html'></iframe>
+    </div>
+  </div>
+  <div class='styleguide-example-source'>
+    <pre class=' lang-jade'><code>.panel.panel-default
+  table.table.table-bordered
+    thead
+      tr
+        th #
+        th First name
+        th Last name
+    tbody
+      tr
+        th 1
+        td Louie
+        td Armstrong
+      tr
+        th 2
+        td Frank
+        td Sinatra
+      tr
+        th 3
+        td Ella
+        td Fitzgerald</code></pre>
+  </div>
+</div><div class='styleguide-text'><h4 id="code-amp-table-hover-code"><code>&amp;.table-hover</code></h4>
+<p>Adds hover effects to rows.</p></div><div class='styleguide-example '>
+  <div class='styleguide-example-figure ' data-js-example-parent>
+    <div class='styleguide-example-toolbar'>
+      <div class='button-group'>
+        <button data-js-example-class='-sm'>S</button>
+        <button data-js-example-class='-md'>M</button>
+        <button data-js-example-class='-lg'>L</button>
+        <button data-js-example-class='-xl'>XL</button>
+      </div>
+      <div class='button-group'>
+        <button data-js-view-source>View source</button>
+      </div>
+    </div>    <div class='content'>
+      <iframe class='styleguide-iframe' scrolling='no' src='examples/tables/table-8.html'></iframe>
+    </div>
+  </div>
+  <div class='styleguide-example-source'>
+    <pre class=' lang-jade'><code>.panel.panel-default
+  table.table.table-hover
+    thead
+      tr
+        th #
+        th First name
+        th Last name
+    tbody
+      tr
+        th 1
+        td Louie
+        td Armstrong
+      tr
+        th 2
+        td Frank
+        td Sinatra
+      tr
+        th 3
+        td Ella
+        td Fitzgerald</code></pre>
+  </div>
+</div><div class='styleguide-text'><h4 id="code-amp-table-condensed-code"><code>&amp;.table-condensed</code></h4>
+<p>Makes cells less tall.</p></div><div class='styleguide-example '>
+  <div class='styleguide-example-figure ' data-js-example-parent>
+    <div class='styleguide-example-toolbar'>
+      <div class='button-group'>
+        <button data-js-example-class='-sm'>S</button>
+        <button data-js-example-class='-md'>M</button>
+        <button data-js-example-class='-lg'>L</button>
+        <button data-js-example-class='-xl'>XL</button>
+      </div>
+      <div class='button-group'>
+        <button data-js-view-source>View source</button>
+      </div>
+    </div>    <div class='content'>
+      <iframe class='styleguide-iframe' scrolling='no' src='examples/tables/table-10.html'></iframe>
+    </div>
+  </div>
+  <div class='styleguide-example-source'>
+    <pre class=' lang-jade'><code>.panel.panel-default
+  table.table.table-condensed
+    thead
+      tr
+        th #
+        th First name
+        th Last name
+    tbody
+      tr
+        th 1
+        td Louie
+        td Armstrong
+      tr
+        th 2
+        td Frank
+        td Sinatra
+      tr
+        th 3
+        td Ella
+        td Fitzgerald</code></pre>
+  </div>
+</div></section></div>   </div>
+    <script src='styledown/styleguide.js'></script>  </body>
+</html>

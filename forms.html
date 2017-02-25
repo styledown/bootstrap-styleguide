@@ -1,0 +1,198 @@
+<!doctype html>
+<html class='styleguide-root'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Forms — Styleguides
+</title>
+    <meta name='generator' content='Styledown2 2.0.0-pre11'><meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='styledown/styleguide.css' />  </head>
+  <body>
+   <div class='styleguide-layout'>
+     <div class='styleguide-sidebar'>
+  <input type='checkbox' id='styleguide-sidebar-toggle' data-js-sidebar-toggle />
+  <label class='styleguide-sidebar-button' for='styleguide-sidebar-toggle'></label>
+  <label class='styleguide-sidebar-screen' for='styleguide-sidebar-toggle'></label>
+  <div class='styleguide-sidebar-contents'>
+    <div class='styleguide-search-bar'>Search...</div>
+    <ul class='styleguide-menu'>
+<li class='styleguide-menu-item -level-1 '>
+<a href='index.html' class='link title '>
+  Bootstrap styleguide
+</a></li><li class='styleguide-menu-item -level-1 -parent'>
+<span class='title'>Layout</span><ul class='submenu'>
+<li class='styleguide-menu-item -level-2 '>
+<a href='grid.html' class='link title '>
+  Grid
+</a></li></ul></li><li class='styleguide-menu-item -level-1 -parent'>
+<span class='title'>Components</span><ul class='submenu'>
+<li class='styleguide-menu-item -level-2 '>
+<a href='buttons.html' class='link title '>
+  Buttons
+</a></li><li class='styleguide-menu-item -level-2 '>
+<a href='components.html' class='link title '>
+  Components
+</a></li><li class='styleguide-menu-item -level-2 '>
+<a href='forms.html' class='link title '>
+  Forms
+</a></li><li class='styleguide-menu-item -level-2 '>
+<a href='tables.html' class='link title '>
+  Tables
+</a></li></ul></li><li class='styleguide-menu-item -level-1 -parent'>
+<span class='title'>Scenarios</span><ul class='submenu'>
+<li class='styleguide-menu-item -level-2 '>
+<a href='scenarios/examples.html' class='link title '>
+  Examples
+</a></li></ul></li></ul>  </div>
+</div><div class='styleguide-body markdown-body'>
+<section class='styleguide-section -h1'>
+  <h1 id='forms'>Forms</h1>
+</section><section class='styleguide-section -h3 -literate-style'>
+  <h3 id='controls'>Controls</h3>
+<div class='styleguide-text'><h4 id="code-form-control-code"><code>.form-control</code></h4>
+<p>Add this class to inputs, textareas, or anything else.</p></div><div class='styleguide-example '>
+  <div class='styleguide-example-figure ' data-js-example-parent>
+    <div class='styleguide-example-toolbar'>
+      <div class='button-group'>
+        <button data-js-example-class='-sm'>S</button>
+        <button data-js-example-class='-md'>M</button>
+        <button data-js-example-class='-lg'>L</button>
+        <button data-js-example-class='-xl'>XL</button>
+      </div>
+      <div class='button-group'>
+        <button data-js-view-source>View source</button>
+      </div>
+    </div>    <div class='content'>
+      <iframe class='styleguide-iframe' scrolling='no' src='examples/forms/controls-2.html'></iframe>
+    </div>
+  </div>
+  <div class='styleguide-example-source'>
+    <pre class=' lang-jade'><code>p: input.form-control(placeholder='Your name')
+p: textarea.form-control(placeholder='Enter your message')</code></pre>
+  </div>
+</div></section><section class='styleguide-section -h3 -literate-style'>
+  <h3 id='form-group'>Form group</h3>
+<div class='styleguide-text'><h4 id="code-form-group-code"><code>.form-group</code></h4>
+<p>Individual form controls automatically receive some global
+styling. All textual <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, and <code>&lt;select&gt;</code> elements
+with <code>.form-control</code> are set to <code>width: 100%;</code> by default. Wrap
+labels and controls in .form-group for optimum spacing.</p></div><div class='styleguide-example '>
+  <div class='styleguide-example-figure ' data-js-example-parent>
+    <div class='styleguide-example-toolbar'>
+      <div class='button-group'>
+        <button data-js-example-class='-sm'>S</button>
+        <button data-js-example-class='-md'>M</button>
+        <button data-js-example-class='-lg'>L</button>
+        <button data-js-example-class='-xl'>XL</button>
+      </div>
+      <div class='button-group'>
+        <button data-js-view-source>View source</button>
+      </div>
+    </div>    <div class='content'>
+      <iframe class='styleguide-iframe' scrolling='no' src='examples/forms/form-group-2.html'></iframe>
+    </div>
+  </div>
+  <div class='styleguide-example-source'>
+    <pre class=' lang-jade'><code>.form-group
+  label Email address
+  input.form-control(placeholder='hi@gmail.com')
+.form-group
+  label Password
+  input.form-control(type='password' placeholder='Password')</code></pre>
+  </div>
+</div></section><section class='styleguide-section -h3 -literate-style'>
+  <h3 id='inline-form'>Inline form</h3>
+<div class='styleguide-text'><h4 id="code-form-inline-code"><code>.form-inline</code></h4>
+<p>Great for forms that only occupy one line for whatever reason. In screens 768px wide and below (tablets), form elements will stack vertically.</p></div><div class='styleguide-example -lg'>
+  <div class='styleguide-example-figure -lg' data-js-example-parent>
+    <div class='styleguide-example-toolbar'>
+      <div class='button-group'>
+        <button data-js-example-class='-sm'>S</button>
+        <button data-js-example-class='-md'>M</button>
+        <button data-js-example-class='-lg'>L</button>
+        <button data-js-example-class='-xl'>XL</button>
+      </div>
+      <div class='button-group'>
+        <button data-js-view-source>View source</button>
+      </div>
+    </div>    <div class='content'>
+      <iframe class='styleguide-iframe' scrolling='no' src='examples/forms/inline-form-2.html'></iframe>
+    </div>
+  </div>
+  <div class='styleguide-example-source'>
+    <pre class='-lg lang-jade'><code>form.form-inline
+  .form-group
+    .input-group
+      .input-group-addon @
+      input.form-control(placeholder='Email')
+  .form-group
+    input.form-control(placeholder='Password' type='password')
+  button.btn.btn-default Sign in</code></pre>
+  </div>
+</div></section><section class='styleguide-section -h3 -literate-style'>
+  <h3 id='horizontal-form'>Horizontal form</h3>
+<div class='styleguide-text'><h4 id="code-form-horizontal-code"><code>.form-horizontal</code></h4>
+<p>Use Bootstrap's grid classes to align labels.</p></div><div class='styleguide-example -md'>
+  <div class='styleguide-example-figure -md' data-js-example-parent>
+    <div class='styleguide-example-toolbar'>
+      <div class='button-group'>
+        <button data-js-example-class='-sm'>S</button>
+        <button data-js-example-class='-md'>M</button>
+        <button data-js-example-class='-lg'>L</button>
+        <button data-js-example-class='-xl'>XL</button>
+      </div>
+      <div class='button-group'>
+        <button data-js-view-source>View source</button>
+      </div>
+    </div>    <div class='content'>
+      <iframe class='styleguide-iframe' scrolling='no' src='examples/forms/horizontal-form-2.html'></iframe>
+    </div>
+  </div>
+  <div class='styleguide-example-source'>
+    <pre class='-md lang-jade'><code>form.form-horizontal
+  .form-group
+    label.col-sm-2.control-label Email
+    .col-sm-10
+      input.form-control(type='text' placeholder='hello@example.com')
+  .form-group
+    label.col-sm-2.control-label Password
+    .col-sm-10
+      input.form-control(type='password' placeholder='Secret')</code></pre>
+  </div>
+</div></section><section class='styleguide-section -h3 -literate-style'>
+  <h3 id='input-group'>Input group</h3>
+<div class='styleguide-text'><h4 id="code-input-group-code"><code>.input-group</code></h4>
+<p>Extend form controls by adding text or buttons before, after, or on both sides
+of any text-based input. Use <code>.input-group</code> with an <code>.input-group-addon</code> to
+prepend or append elements to a single <code>.form-control</code>.</p></div><div class='styleguide-example -slim'>
+  <div class='styleguide-example-figure -slim' data-js-example-parent>
+    <div class='styleguide-example-toolbar'>
+      <div class='button-group'>
+        <button data-js-example-class='-sm'>S</button>
+        <button data-js-example-class='-md'>M</button>
+        <button data-js-example-class='-lg'>L</button>
+        <button data-js-example-class='-xl'>XL</button>
+      </div>
+      <div class='button-group'>
+        <button data-js-view-source>View source</button>
+      </div>
+    </div>    <div class='content'>
+      <iframe class='styleguide-iframe' scrolling='no' src='examples/forms/input-group-2.html'></iframe>
+    </div>
+  </div>
+  <div class='styleguide-example-source'>
+    <pre class='-slim lang-jade'><code>.input-group
+  .input-group-addon @
+  input.form-control(placeholder='Username')
+br
+.input-group
+  input.form-control(type='text')
+  .input-group-addon .00
+br
+.input-group
+  .input-group-addon $
+  input.form-control(type='text')
+  .input-group-addon .00</code></pre>
+  </div>
+</div></section></div>   </div>
+    <script src='styledown/styleguide.js'></script>  </body>
+</html>

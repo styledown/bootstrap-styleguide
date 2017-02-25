@@ -1,0 +1,234 @@
+<!doctype html>
+<html class='styleguide-root'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Buttons — Styleguides
+</title>
+    <meta name='generator' content='Styledown2 2.0.0-pre11'><meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='styledown/styleguide.css' />  </head>
+  <body>
+   <div class='styleguide-layout'>
+     <div class='styleguide-sidebar'>
+  <input type='checkbox' id='styleguide-sidebar-toggle' data-js-sidebar-toggle />
+  <label class='styleguide-sidebar-button' for='styleguide-sidebar-toggle'></label>
+  <label class='styleguide-sidebar-screen' for='styleguide-sidebar-toggle'></label>
+  <div class='styleguide-sidebar-contents'>
+    <div class='styleguide-search-bar'>Search...</div>
+    <ul class='styleguide-menu'>
+<li class='styleguide-menu-item -level-1 '>
+<a href='index.html' class='link title '>
+  Bootstrap styleguide
+</a></li><li class='styleguide-menu-item -level-1 -parent'>
+<span class='title'>Layout</span><ul class='submenu'>
+<li class='styleguide-menu-item -level-2 '>
+<a href='grid.html' class='link title '>
+  Grid
+</a></li></ul></li><li class='styleguide-menu-item -level-1 -parent'>
+<span class='title'>Components</span><ul class='submenu'>
+<li class='styleguide-menu-item -level-2 '>
+<a href='buttons.html' class='link title '>
+  Buttons
+</a></li><li class='styleguide-menu-item -level-2 '>
+<a href='components.html' class='link title '>
+  Components
+</a></li><li class='styleguide-menu-item -level-2 '>
+<a href='forms.html' class='link title '>
+  Forms
+</a></li><li class='styleguide-menu-item -level-2 '>
+<a href='tables.html' class='link title '>
+  Tables
+</a></li></ul></li><li class='styleguide-menu-item -level-1 -parent'>
+<span class='title'>Scenarios</span><ul class='submenu'>
+<li class='styleguide-menu-item -level-2 '>
+<a href='scenarios/examples.html' class='link title '>
+  Examples
+</a></li></ul></li></ul>  </div>
+</div><div class='styleguide-body markdown-body'>
+<section class='styleguide-section -h1'>
+  <h1 id='buttons'>Buttons</h1>
+</section><section class='styleguide-section -h3 -literate-style'>
+  <h3 id='buttons-1'>Buttons</h3>
+<div class='styleguide-text'><h4 id="code-btn-code"><code>.btn</code></h4>
+<p>Applies to <code>&lt;a&gt;</code> and <code>&lt;button&gt;</code>.</p></div><div class='styleguide-example '>
+  <div class='styleguide-example-figure ' data-js-example-parent>
+    <div class='styleguide-example-toolbar'>
+      <div class='button-group'>
+        <button data-js-example-class='-sm'>S</button>
+        <button data-js-example-class='-md'>M</button>
+        <button data-js-example-class='-lg'>L</button>
+        <button data-js-example-class='-xl'>XL</button>
+      </div>
+      <div class='button-group'>
+        <button data-js-view-source>View source</button>
+      </div>
+    </div>    <div class='content'>
+      <iframe class='styleguide-iframe' scrolling='no' src='examples/buttons/buttons-1-2.html'></iframe>
+    </div>
+  </div>
+  <div class='styleguide-example-source'>
+    <pre class=' lang-jade'><code>a.btn.btn-primary Primary button</code></pre>
+  </div>
+</div><div class='styleguide-text'><h4 id="code-amp-btn-link-code"><code>&amp;.btn-link</code></h4>
+<p><strong>Link button</strong> without any borders</p></div><div class='styleguide-example '>
+  <div class='styleguide-example-figure ' data-js-example-parent>
+    <div class='styleguide-example-toolbar'>
+      <div class='button-group'>
+        <button data-js-example-class='-sm'>S</button>
+        <button data-js-example-class='-md'>M</button>
+        <button data-js-example-class='-lg'>L</button>
+        <button data-js-example-class='-xl'>XL</button>
+      </div>
+      <div class='button-group'>
+        <button data-js-view-source>View source</button>
+      </div>
+    </div>    <div class='content'>
+      <iframe class='styleguide-iframe' scrolling='no' src='examples/buttons/buttons-1-4.html'></iframe>
+    </div>
+  </div>
+  <div class='styleguide-example-source'>
+    <pre class=' lang-jade'><code>a.btn.btn-link Link</code></pre>
+  </div>
+</div><div class='styleguide-text'><h4 id="code-amp-btn-xs-code"><code>&amp;.btn-xs</code></h4>
+<h4 id="code-amp-btn-sm-code"><code>&amp;.btn-sm</code></h4>
+<h4 id="code-amp-btn-lg-code"><code>&amp;.btn-lg</code></h4>
+<p><strong>Sizes</strong> - Define sizes using <code>btn-lg</code>, <code>btn-sm</code>, and <code>btn-xs</code> classes.</p></div><div class='styleguide-example '>
+  <div class='styleguide-example-figure ' data-js-example-parent>
+    <div class='styleguide-example-toolbar'>
+      <div class='button-group'>
+        <button data-js-example-class='-sm'>S</button>
+        <button data-js-example-class='-md'>M</button>
+        <button data-js-example-class='-lg'>L</button>
+        <button data-js-example-class='-xl'>XL</button>
+      </div>
+      <div class='button-group'>
+        <button data-js-view-source>View source</button>
+      </div>
+    </div>    <div class='content'>
+      <iframe class='styleguide-iframe' scrolling='no' src='examples/buttons/buttons-1-6.html'></iframe>
+    </div>
+  </div>
+  <div class='styleguide-example-source'>
+    <pre class=' lang-jade'><code>p
+  a.btn.btn-lg.btn-primary Large
+  a.btn.btn-lg.btn-default btn-lg
+p
+  a.btn.btn-primary Default
+  a.btn.btn-default Default
+p
+  a.btn.btn-sm.btn-primary Small
+  a.btn.btn-sm.btn-default btn-sm
+p
+  a.btn.btn-xs.btn-primary X-Small
+  a.btn.btn-xs.btn-default btn-xs</code></pre>
+  </div>
+</div><div class='styleguide-text'><h4 id="code-amp-btn-default-code"><code>&amp;.btn-default</code></h4>
+<h4 id="code-amp-btn-primary-code"><code>&amp;.btn-primary</code></h4>
+<h4 id="code-amp-btn-success-code"><code>&amp;.btn-success</code></h4>
+<h4 id="code-amp-btn-info-code"><code>&amp;.btn-info</code></h4>
+<h4 id="code-amp-btn-warning-code"><code>&amp;.btn-warning</code></h4>
+<h4 id="code-amp-btn-danger-code"><code>&amp;.btn-danger</code></h4>
+<p>Color variants</p></div><div class='styleguide-example '>
+  <div class='styleguide-example-figure ' data-js-example-parent>
+    <div class='styleguide-example-toolbar'>
+      <div class='button-group'>
+        <button data-js-example-class='-sm'>S</button>
+        <button data-js-example-class='-md'>M</button>
+        <button data-js-example-class='-lg'>L</button>
+        <button data-js-example-class='-xl'>XL</button>
+      </div>
+      <div class='button-group'>
+        <button data-js-view-source>View source</button>
+      </div>
+    </div>    <div class='content'>
+      <iframe class='styleguide-iframe' scrolling='no' src='examples/buttons/buttons-1-8.html'></iframe>
+    </div>
+  </div>
+  <div class='styleguide-example-source'>
+    <pre class=' lang-jade'><code>a.btn.btn-default Default
+a.btn.btn-primary Primary
+a.btn.btn-success Success
+a.btn.btn-info Info
+a.btn.btn-warning Warning
+a.btn.btn-danger Danger</code></pre>
+  </div>
+</div></section><section class='styleguide-section -h3 -literate-style'>
+  <h3 id='button-block'>Button block</h3>
+<div class='styleguide-text'><h4 id="code-amp-btn-block-code"><code>&amp;.btn-block</code></h4>
+<p>Makes buttons occupy a full width (block).</p></div><div class='styleguide-example '>
+  <div class='styleguide-example-figure ' data-js-example-parent>
+    <div class='styleguide-example-toolbar'>
+      <div class='button-group'>
+        <button data-js-example-class='-sm'>S</button>
+        <button data-js-example-class='-md'>M</button>
+        <button data-js-example-class='-lg'>L</button>
+        <button data-js-example-class='-xl'>XL</button>
+      </div>
+      <div class='button-group'>
+        <button data-js-view-source>View source</button>
+      </div>
+    </div>    <div class='content'>
+      <iframe class='styleguide-iframe' scrolling='no' src='examples/buttons/button-block-2.html'></iframe>
+    </div>
+  </div>
+  <div class='styleguide-example-source'>
+    <pre class=' lang-jade'><code>.well.center-block(style='max-width: 400px')
+  a.btn.btn-lg.btn-block.btn-primary Block level button
+  a.btn.btn-lg.btn-block.btn-default .btn-block</code></pre>
+  </div>
+</div></section><section class='styleguide-section -h3 -literate-style'>
+  <h3 id='button-group'>Button group</h3>
+<div class='styleguide-text'><h4 id="code-btn-group-code"><code>.btn-group</code></h4>
+<p>Wraps a series of buttons in a group.</p></div><div class='styleguide-example '>
+  <div class='styleguide-example-figure ' data-js-example-parent>
+    <div class='styleguide-example-toolbar'>
+      <div class='button-group'>
+        <button data-js-example-class='-sm'>S</button>
+        <button data-js-example-class='-md'>M</button>
+        <button data-js-example-class='-lg'>L</button>
+        <button data-js-example-class='-xl'>XL</button>
+      </div>
+      <div class='button-group'>
+        <button data-js-view-source>View source</button>
+      </div>
+    </div>    <div class='content'>
+      <iframe class='styleguide-iframe' scrolling='no' src='examples/buttons/button-group-2.html'></iframe>
+    </div>
+  </div>
+  <div class='styleguide-example-source'>
+    <pre class=' lang-jade'><code>.btn-group
+  button.btn.btn-default Left
+  button.btn.btn-default Middle
+  button.btn.btn-default Right</code></pre>
+  </div>
+</div></section><section class='styleguide-section -h3 -literate-style'>
+  <h3 id='toolbar'>Toolbar</h3>
+<div class='styleguide-text'><h4 id="code-btn-toolbar-code"><code>.btn-toolbar</code></h4>
+<p>Wraps a series of button groups in a toolbar for more complex components.</p></div><div class='styleguide-example '>
+  <div class='styleguide-example-figure ' data-js-example-parent>
+    <div class='styleguide-example-toolbar'>
+      <div class='button-group'>
+        <button data-js-example-class='-sm'>S</button>
+        <button data-js-example-class='-md'>M</button>
+        <button data-js-example-class='-lg'>L</button>
+        <button data-js-example-class='-xl'>XL</button>
+      </div>
+      <div class='button-group'>
+        <button data-js-view-source>View source</button>
+      </div>
+    </div>    <div class='content'>
+      <iframe class='styleguide-iframe' scrolling='no' src='examples/buttons/toolbar-2.html'></iframe>
+    </div>
+  </div>
+  <div class='styleguide-example-source'>
+    <pre class=' lang-jade'><code>.btn-toolbar
+  .btn-group
+    button.btn.btn-default Cut
+    button.btn.btn-default Copy
+    button.btn.btn-default Paste
+  .btn-group
+    button.btn.btn-default Undo
+    button.btn.btn-default Redo</code></pre>
+  </div>
+</div></section></div>   </div>
+    <script src='styledown/styleguide.js'></script>  </body>
+</html>

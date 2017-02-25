@@ -1,0 +1,126 @@
+<!doctype html>
+<html class='styleguide-root'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Grid — Styleguides
+</title>
+    <meta name='generator' content='Styledown2 2.0.0-pre11'><meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='styledown/styleguide.css' />  </head>
+  <body>
+   <div class='styleguide-layout'>
+     <div class='styleguide-sidebar'>
+  <input type='checkbox' id='styleguide-sidebar-toggle' data-js-sidebar-toggle />
+  <label class='styleguide-sidebar-button' for='styleguide-sidebar-toggle'></label>
+  <label class='styleguide-sidebar-screen' for='styleguide-sidebar-toggle'></label>
+  <div class='styleguide-sidebar-contents'>
+    <div class='styleguide-search-bar'>Search...</div>
+    <ul class='styleguide-menu'>
+<li class='styleguide-menu-item -level-1 '>
+<a href='index.html' class='link title '>
+  Bootstrap styleguide
+</a></li><li class='styleguide-menu-item -level-1 -parent'>
+<span class='title'>Layout</span><ul class='submenu'>
+<li class='styleguide-menu-item -level-2 '>
+<a href='grid.html' class='link title '>
+  Grid
+</a></li></ul></li><li class='styleguide-menu-item -level-1 -parent'>
+<span class='title'>Components</span><ul class='submenu'>
+<li class='styleguide-menu-item -level-2 '>
+<a href='buttons.html' class='link title '>
+  Buttons
+</a></li><li class='styleguide-menu-item -level-2 '>
+<a href='components.html' class='link title '>
+  Components
+</a></li><li class='styleguide-menu-item -level-2 '>
+<a href='forms.html' class='link title '>
+  Forms
+</a></li><li class='styleguide-menu-item -level-2 '>
+<a href='tables.html' class='link title '>
+  Tables
+</a></li></ul></li><li class='styleguide-menu-item -level-1 -parent'>
+<span class='title'>Scenarios</span><ul class='submenu'>
+<li class='styleguide-menu-item -level-2 '>
+<a href='scenarios/examples.html' class='link title '>
+  Examples
+</a></li></ul></li></ul>  </div>
+</div><div class='styleguide-body markdown-body'>
+<section class='styleguide-section -h1'>
+  <h1 id='grid'>Grid</h1>
+</section><section class='styleguide-section -h3'>
+  <h3 id='columns'>Columns</h3>
+<div class='styleguide-example -full'>
+  <div class='styleguide-example-figure -full' data-js-example-parent>
+    <div class='styleguide-example-toolbar'>
+      <div class='button-group'>
+        <button data-js-example-class='-sm'>S</button>
+        <button data-js-example-class='-md'>M</button>
+        <button data-js-example-class='-lg'>L</button>
+        <button data-js-example-class='-xl'>XL</button>
+      </div>
+      <div class='button-group'>
+        <button data-js-view-source>View source</button>
+      </div>
+    </div>    <div class='content'>
+      <iframe class='styleguide-iframe' scrolling='no' src='examples/grid/columns-1.html'></iframe>
+    </div>
+  </div>
+  <div class='styleguide-example-source'>
+    <pre class='-full lang-jade'><code>.container
+  .row
+    .col-md-4
+      .grid-example col-md-4
+    .col-md-4
+      .grid-example col-md-4
+    .col-md-4
+      .grid-example col-md-4
+  br
+  .row
+    .col-md-8
+      .grid-example col-md-8
+    .col-md-4
+      .grid-example col-md-4
+  br
+  .row
+    .col-md-1
+      .grid-example col-md-1
+    .col-md-1
+      .grid-example col-md-1
+    .col-md-1
+      .grid-example col-md-1
+    .col-md-1
+      .grid-example col-md-1
+    .col-md-1
+      .grid-example col-md-1
+    .col-md-1
+      .grid-example col-md-1
+    .col-md-1
+      .grid-example col-md-1
+    .col-md-1
+      .grid-example col-md-1
+    .col-md-1
+      .grid-example col-md-1
+    .col-md-1
+      .grid-example col-md-1
+    .col-md-1
+      .grid-example col-md-1
+    .col-md-1
+      .grid-example col-md-1
+// {remove:[4,6,8],strip:[1],snip:[]}</code></pre>
+  </div>
+</div></section><section class='styleguide-section -h3'>
+  <h3 id='media-queries'>Media queries</h3>
+<div class='styleguide-code '>
+  <pre class='lang-css'><code>/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }</code></pre>
+</div></section></div>   </div>
+    <script src='styledown/styleguide.js'></script>  </body>
+</html>
